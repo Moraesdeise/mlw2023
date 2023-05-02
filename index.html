@@ -12,5 +12,26 @@
     <ol>
         <li><a href="paginas/comandobasicos.html">Comandos Basicos</a></li>
     </ol>
+    <form action="">
+        <fieldset><legend>Dados pessoais</legend>
+        Nome: <input type="text" name="Nome">
+        Email: <input type="email" name="Email">
+        Senha: <input type="password" name="Senha">
+        </fieldset>
+        <fieldset><legend>Dados escolhiveis</legend>
+            <input type="checkbox" name="Carro"> Carro
+            <input type="checkbox" name="Moto"> Moto
+            <input type="checkbox" name="Onibus"> Ônibus
+            <input type="checkbox" name="Bike"> Bicicleta
+            <br>
+            <input type="radio" name="Sexo"> Homem
+            <input type="radio" name="Sexo"> Mulher
+            <input type="radio" name="Sexo"> Prefiro não dizer
+            <br>
+            <textarea name="Mensagem"></textarea>
+        </fieldset>
+        <input type="submit" value="Enviar" name="Enviar">
+        <input type="reset" value="Apagar" name="Apagar">
+    </form>
 </body>
 </html>
